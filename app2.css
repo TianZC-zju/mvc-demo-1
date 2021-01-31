@@ -1,0 +1,29 @@
+.app2{
+    flex-wrap: wrap;
+}
+
+.app2 > .tab{
+    display: flex;
+
+}
+.app2 > .tab > li{
+    border: 1px solid black;
+    width: 50%;
+}
+.tab > #tab1{
+
+}
+.tab> #tab2{
+    /*border: 1px solid green;*/
+    /*width: 50%;*/
+}
+/*踩坑:这里写content, 而不是li的,导致我有的content都无法显示, 包括li*/
+.app2 .content li{
+    display: none;
+}
+.app2 > .content > .active{
+    display: block;
+}
+.app2 .tab .active{
+    background: aquamarine;
+}

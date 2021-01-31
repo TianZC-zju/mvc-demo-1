@@ -1,0 +1,12 @@
+{
+  "name": "mvc-demo-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.5.1"
+  }
+}
